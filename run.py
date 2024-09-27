@@ -34,6 +34,43 @@ def clean():
     """
     os.system("cls" if os.name == "nt" else "clear")
 
+def welcome():
+    """
+    Welcome message, requesting player name.
+    """
+    global PLAYER
+
+    print(f"{Fore.GREEN}{Style.BRIGHT} \nWelcome to Quiz Master - Battle of brains!\n")
+    time.sleep(1.5)
+
+    # requesting the players name
+    validate_player()
+    clean()
+    print(f"{Fore.CYAN}{Style.BRIGHT}Welcome {PLAYER}!")
+
+    # open the main menu
+    menu()
+
+
+def validate_player():
+    """
+    Checking that player enters a valid name.
+    """
+    global PLAYER
+
+    while True:
+        PLAYER = input(f"{Fore.GREEN}Please enter your name: ")
+
+        if not PLAYER.isalpha() or len(PLAYER) < 2 or len(PLAYER) > 15:
+            clean()
+            print(
+                f"{Fore.RED}{Style.BRIGHT}{PLAYER!r} "
+                "is an invalid name. Please type 2-15 letters.")
+        else:
+            break
+
+
+
 # Looping through the mathquestions
 def main():
     """
@@ -61,4 +98,5 @@ def main():
 
 # Calling functions
 clean()
+welcome()
 main()
