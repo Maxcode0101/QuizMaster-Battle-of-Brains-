@@ -16,8 +16,9 @@ import random
 import time
 import sys, os
 
-# Imports list with all mathquestions from questionlist.py file
+# Imports list with questions from questionlist.py file
 from questionlist import mathquestions
+from questionlist import geographyquestions
 
 
 # Global Variables
@@ -61,7 +62,7 @@ def validate_player():
     while True:
         PLAYER = input(f"{Fore.GREEN}Please enter your name: ")
 
-        if not PLAYER.isalpha() or len(PLAYER) < 1 or len(PLAYER):
+        if not PLAYER.isalpha() or len(PLAYER) < 1 or len(PLAYER) > 30:
             clean()
             print(
                 f"{Fore.RED}{Style.BRIGHT}{PLAYER!r} "
@@ -69,6 +70,29 @@ def validate_player():
         else:
             break
 
+def menu():
+    """
+    Choosing Game-type.
+    """
+    global GAME
+
+menu()
+
+while True:
+    game_type = int(input(f"{Fore.GREEN}{Style.BRIGHT}""[1] Math \n[2] Geography\n"))
+    clean()
+    if game_type == 1:
+         # Math Quiz
+            GAME = mathquestions
+            break
+    elif game_type == 2:
+            # Geography Quiz
+            GAME = geographyquestions
+            break
+    else:
+            print(
+                f"{Fore.RED}{Style.BRIGHT}{game!r} "
+                "Invalid enter! Please select 1 or 2.")
 
 
 # Looping through the mathquestions
@@ -77,6 +101,7 @@ def main():
     Main function, loops through quiz-questions.
     """
     global SCORE
+    # Looping through the mathquestions
     for question in mathquestions:
         question_text = question.get("question")
         print(question_text)
@@ -95,6 +120,25 @@ def main():
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
             print(f"{Fore.RED}Your score = {SCORE}")
         
+    for question in geographyquestions:
+        question_text = question.get("question")
+        print(question_text)
+        print("--------------")
+        print("Choices: ")
+        print(question.get("options"))
+        print("--------------")
+    
+        user_answer = int(input("Enter answer: ")) 
+        correct_answer = int(question.get("answer"))
+
+        if user_answer == correct_answer:
+            print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
+            print(f"{Fore.GREEN}Your score = {SCORE+10}")
+        else:
+            print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
+            print(f"{Fore.RED}Your score = {SCORE}")
+        
+
 
 # Calling functions
 clean()
