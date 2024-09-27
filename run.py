@@ -14,7 +14,7 @@ import pyfiglet
 import random
 
 import time
-import os
+import sys, os
 
 # Imports list with all mathquestions from questionlist.py file
 from questionlist import mathquestions
@@ -28,10 +28,16 @@ SCORE = 0
 PLAYER = ""
 GAME = None
 
-# Looping through the mathquestions
-def loop_questions():
+def clean():
     """
-    Main function
+    Cleans the terminal.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
+
+# Looping through the mathquestions
+def main():
+    """
+    Main function, loops through quiz-questions.
     """
     global SCORE
     for question in mathquestions:
@@ -54,4 +60,5 @@ def loop_questions():
         
 
 # Calling functions
-loop_questions()
+clean()
+main()

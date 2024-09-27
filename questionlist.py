@@ -80,3 +80,259 @@ mathquestions = [
     {"question": "11 - 5 = ?", "options": [5, 6, 7, 8], "answer": 6}
 ]
 
+geographyquestions = {
+    "What is the capital of France?": {
+        "options": {
+            "A.)": "Madrid",
+            "B.)": "Berlin",
+            "C.)": "Paris",
+            "D.)": "Rome"
+        },
+        "answer": "C.)"
+    },
+    "What is the capital of Japan?": {
+        "options": {
+            "A.)": "Tokyo",
+            "B.)": "Seoul",
+            "C.)": "Beijing",
+            "D.)": "Bangkok"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Australia?": {
+        "options": {
+            "A.)": "Sydney",
+            "B.)": "Melbourne",
+            "C.)": "Canberra",
+            "D.)": "Brisbane"
+        },
+        "answer": "C.)"
+    },
+    "What is the capital of Brazil?": {
+        "options": {
+            "A.)": "Rio de Janeiro",
+            "B.)": "Brasília",
+            "C.)": "São Paulo",
+            "D.)": "Salvador"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of Canada?": {
+        "options": {
+            "A.)": "Toronto",
+            "B.)": "Ottawa",
+            "C.)": "Vancouver",
+            "D.)": "Montreal"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of Germany?": {
+        "options": {
+            "A.)": "Berlin",
+            "B.)": "Munich",
+            "C.)": "Hamburg",
+            "D.)": "Frankfurt"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Italy?": {
+        "options": {
+            "A.)": "Venice",
+            "B.)": "Milan",
+            "C.)": "Rome",
+            "D.)": "Florence"
+        },
+        "answer": "C.)"
+    },
+    "What is the capital of Russia?": {
+        "options": {
+            "A.)": "Moscow",
+            "B.)": "Saint Petersburg",
+            "C.)": "Novosibirsk",
+            "D.)": "Kazan"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of China?": {
+        "options": {
+            "A.)": "Shanghai",
+            "B.)": "Beijing",
+            "C.)": "Shenzhen",
+            "D.)": "Hong Kong"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of India?": {
+        "options": {
+            "A.)": "New Delhi",
+            "B.)": "Mumbai",
+            "C.)": "Kolkata",
+            "D.)": "Bangalore"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of South Korea?": {
+        "options": {
+            "A.)": "Seoul",
+            "B.)": "Busan",
+            "C.)": "Incheon",
+            "D.)": "Daegu"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Mexico?": {
+        "options": {
+            "A.)": "Mexico City",
+            "B.)": "Guadalajara",
+            "C.)": "Monterrey",
+            "D.)": "Cancún"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Argentina?": {
+        "options": {
+            "A.)": "Buenos Aires",
+            "B.)": "Córdoba",
+            "C.)": "Rosario",
+            "D.)": "Mendoza"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of the United Kingdom?": {
+        "options": {
+            "A.)": "London",
+            "B.)": "Edinburgh",
+            "C.)": "Manchester",
+            "D.)": "Liverpool"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Egypt?": {
+        "options": {
+            "A.)": "Cairo",
+            "B.)": "Alexandria",
+            "C.)": "Giza",
+            "D.)": "Luxor"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Spain?": {
+        "options": {
+            "A.)": "Madrid",
+            "B.)": "Barcelona",
+            "C.)": "Valencia",
+            "D.)": "Seville"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of South Africa?": {
+        "options": {
+            "A.)": "Cape Town",
+            "B.)": "Pretoria",
+            "C.)": "Durban",
+            "D.)": "Johannesburg"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of Turkey?": {
+        "options": {
+            "A.)": "Istanbul",
+            "B.)": "Ankara",
+            "C.)": "Izmir",
+            "D.)": "Antalya"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of Thailand?": {
+        "options": {
+            "A.)": "Phuket",
+            "B.)": "Chiang Mai",
+            "C.)": "Bangkok",
+            "D.)": "Pattaya"
+        },
+        "answer": "C.)"
+    },
+    "What is the capital of Portugal?": {
+        "options": {
+            "A.)": "Lisbon",
+            "B.)": "Porto",
+            "C.)": "Faro",
+            "D.)": "Braga"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Kenya?": {
+        "options": {
+            "A.)": "Nairobi",
+            "B.)": "Mombasa",
+            "C.)": "Kisumu",
+            "D.)": "Nakuru"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of New Zealand?": {
+        "options": {
+            "A.)": "Wellington",
+            "B.)": "Auckland",
+            "C.)": "Christchurch",
+            "D.)": "Dunedin"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Norway?": {
+        "options": {
+            "A.)": "Oslo",
+            "B.)": "Bergen",
+            "C.)": "Stavanger",
+            "D.)": "Trondheim"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Sweden?": {
+        "options": {
+            "A.)": "Stockholm",
+            "B.)": "Gothenburg",
+            "C.)": "Malmö",
+            "D.)": "Uppsala"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Denmark?": {
+        "options": {
+            "A.)": "Aarhus",
+            "B.)": "Copenhagen",
+            "C.)": "Odense",
+            "D.)": "Aalborg"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of Finland?": {
+        "options": {
+            "A.)": "Helsinki",
+            "B.)": "Espoo",
+            "C.)": "Tampere",
+            "D.)": "Turku"
+        },
+        "answer": "A.)"
+    },
+    "What is the capital of Saudi Arabia?": {
+        "options": {
+            "A.)": "Jeddah",
+            "B.)": "Riyadh",
+            "C.)": "Mecca",
+            "D.)": "Medina"
+        },
+        "answer": "B.)"
+    },
+    "What is the capital of the United States?": {
+        "options": {
+            "A.)": "New York",
+            "B.)": "Washington, D.C.",
+            "C.)": "Los Angeles",
+            "D.)": "Chicago"
+        },
+        "answer": "B.)"
+    }
+}
+
+   
