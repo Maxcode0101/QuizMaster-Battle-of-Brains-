@@ -61,11 +61,11 @@ def validate_player():
     while True:
         PLAYER = input(f"{Fore.GREEN}Please enter your name: ")
 
-        if not PLAYER.isalpha() or len(PLAYER) < 2 or len(PLAYER) > 15:
+        if not PLAYER.isalpha() or len(PLAYER) < 1 or len(PLAYER):
             clean()
             print(
                 f"{Fore.RED}{Style.BRIGHT}{PLAYER!r} "
-                "is an invalid name. Please type 2-15 letters.")
+                "is not a valid name. Please use only letters.")
         else:
             break
 

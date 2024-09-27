@@ -81,142 +81,28 @@ mathquestions = [
 ]
 
 geographyquestions = {
-    "What is the capital of France?": {
+    1: {
+        "question": "What is the capital of France? 🇫🇷",
         "options": {
-            "A.)": "Madrid",
-            "B.)": "Berlin",
-            "C.)": "Paris",
-            "D.)": "Rome"
-        },
-        "answer": "C.)"
-    },
-    "What is the capital of Japan?": {
-        "options": {
-            "A.)": "Tokyo",
-            "B.)": "Seoul",
-            "C.)": "Beijing",
-            "D.)": "Bangkok"
+            "A.)": "Paris",
+            "B.)": "Marseille",
+            "C.)": "Lyon",
+            "D.)": "Nice"
         },
         "answer": "A.)"
     },
-    "What is the capital of Australia?": {
+    2: {
+        "question": "What is the capital of Italy? 🇮🇹",
         "options": {
-            "A.)": "Sydney",
-            "B.)": "Melbourne",
-            "C.)": "Canberra",
-            "D.)": "Brisbane"
-        },
-        "answer": "C.)"
-    },
-    "What is the capital of Brazil?": {
-        "options": {
-            "A.)": "Rio de Janeiro",
-            "B.)": "Brasília",
-            "C.)": "São Paulo",
-            "D.)": "Salvador"
-        },
-        "answer": "B.)"
-    },
-    "What is the capital of Canada?": {
-        "options": {
-            "A.)": "Toronto",
-            "B.)": "Ottawa",
-            "C.)": "Vancouver",
-            "D.)": "Montreal"
-        },
-        "answer": "B.)"
-    },
-    "What is the capital of Germany?": {
-        "options": {
-            "A.)": "Berlin",
-            "B.)": "Munich",
-            "C.)": "Hamburg",
-            "D.)": "Frankfurt"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of Italy?": {
-        "options": {
-            "A.)": "Venice",
+            "A.)": "Rome",
             "B.)": "Milan",
-            "C.)": "Rome",
+            "C.)": "Naples",
             "D.)": "Florence"
         },
-        "answer": "C.)"
-    },
-    "What is the capital of Russia?": {
-        "options": {
-            "A.)": "Moscow",
-            "B.)": "Saint Petersburg",
-            "C.)": "Novosibirsk",
-            "D.)": "Kazan"
-        },
         "answer": "A.)"
     },
-    "What is the capital of China?": {
-        "options": {
-            "A.)": "Shanghai",
-            "B.)": "Beijing",
-            "C.)": "Shenzhen",
-            "D.)": "Hong Kong"
-        },
-        "answer": "B.)"
-    },
-    "What is the capital of India?": {
-        "options": {
-            "A.)": "New Delhi",
-            "B.)": "Mumbai",
-            "C.)": "Kolkata",
-            "D.)": "Bangalore"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of South Korea?": {
-        "options": {
-            "A.)": "Seoul",
-            "B.)": "Busan",
-            "C.)": "Incheon",
-            "D.)": "Daegu"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of Mexico?": {
-        "options": {
-            "A.)": "Mexico City",
-            "B.)": "Guadalajara",
-            "C.)": "Monterrey",
-            "D.)": "Cancún"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of Argentina?": {
-        "options": {
-            "A.)": "Buenos Aires",
-            "B.)": "Córdoba",
-            "C.)": "Rosario",
-            "D.)": "Mendoza"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of the United Kingdom?": {
-        "options": {
-            "A.)": "London",
-            "B.)": "Edinburgh",
-            "C.)": "Manchester",
-            "D.)": "Liverpool"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of Egypt?": {
-        "options": {
-            "A.)": "Cairo",
-            "B.)": "Alexandria",
-            "C.)": "Giza",
-            "D.)": "Luxor"
-        },
-        "answer": "A.)"
-    },
-    "What is the capital of Spain?": {
+    3: {
+        "question": "What is the capital of Spain? 🇪🇸",
         "options": {
             "A.)": "Madrid",
             "B.)": "Barcelona",
@@ -225,70 +111,328 @@ geographyquestions = {
         },
         "answer": "A.)"
     },
-    "What is the capital of South Africa?": {
+    4: {
+        "question": "What is the capital of Germany? 🇩🇪",
         "options": {
-            "A.)": "Cape Town",
-            "B.)": "Pretoria",
-            "C.)": "Durban",
-            "D.)": "Johannesburg"
-        },
-        "answer": "B.)"
-    },
-    "What is the capital of Turkey?": {
-        "options": {
-            "A.)": "Istanbul",
-            "B.)": "Ankara",
-            "C.)": "Izmir",
-            "D.)": "Antalya"
-        },
-        "answer": "B.)"
-    },
-    "What is the capital of Thailand?": {
-        "options": {
-            "A.)": "Phuket",
-            "B.)": "Chiang Mai",
-            "C.)": "Bangkok",
-            "D.)": "Pattaya"
-        },
-        "answer": "C.)"
-    },
-    "What is the capital of Portugal?": {
-        "options": {
-            "A.)": "Lisbon",
-            "B.)": "Porto",
-            "C.)": "Faro",
-            "D.)": "Braga"
+            "A.)": "Berlin",
+            "B.)": "Munich",
+            "C.)": "Hamburg",
+            "D.)": "Frankfurt"
         },
         "answer": "A.)"
     },
-    "What is the capital of Kenya?": {
+    5: {
+        "question": "What is the capital of Japan? 🇯🇵",
         "options": {
-            "A.)": "Nairobi",
-            "B.)": "Mombasa",
-            "C.)": "Kisumu",
-            "D.)": "Nakuru"
+            "A.)": "Tokyo",
+            "B.)": "Osaka",
+            "C.)": "Kyoto",
+            "D.)": "Nagoya"
         },
         "answer": "A.)"
     },
-    "What is the capital of New Zealand?": {
+    6: {
+        "question": "What is the capital of Brazil? 🇧🇷",
         "options": {
-            "A.)": "Wellington",
-            "B.)": "Auckland",
-            "C.)": "Christchurch",
-            "D.)": "Dunedin"
+            "A.)": "Brasília",
+            "B.)": "São Paulo",
+            "C.)": "Rio de Janeiro",
+            "D.)": "Salvador"
         },
         "answer": "A.)"
     },
-    "What is the capital of Norway?": {
+    7: {
+        "question": "What is the capital of Canada? 🇨🇦",
+        "options": {
+            "A.)": "Ottawa",
+            "B.)": "Toronto",
+            "C.)": "Vancouver",
+            "D.)": "Montreal"
+        },
+        "answer": "A.)"
+    },
+    8: {
+        "question": "What is the capital of Australia? 🇦🇺",
+        "options": {
+            "A.)": "Canberra",
+            "B.)": "Sydney",
+            "C.)": "Melbourne",
+            "D.)": "Brisbane"
+        },
+        "answer": "A.)"
+    },
+    9: {
+        "question": "What is the capital of Russia? 🇷🇺",
+        "options": {
+            "A.)": "Moscow",
+            "B.)": "Saint Petersburg",
+            "C.)": "Kazan",
+            "D.)": "Novosibirsk"
+        },
+        "answer": "A.)"
+    },
+    10: {
+        "question": "What is the capital of China? 🇨🇳",
+        "options": {
+            "A.)": "Beijing",
+            "B.)": "Shanghai",
+            "C.)": "Guangzhou",
+            "D.)": "Shenzhen"
+        },
+        "answer": "A.)"
+    },
+    11: {
+        "question": "What is the capital of India? 🇮🇳",
+        "options": {
+            "A.)": "New Delhi",
+            "B.)": "Mumbai",
+            "C.)": "Kolkata",
+            "D.)": "Bangalore"
+        },
+        "answer": "A.)"
+    },
+    12: {
+        "question": "What is the capital of the United Kingdom? 🇬🇧",
+        "options": {
+            "A.)": "London",
+            "B.)": "Manchester",
+            "C.)": "Birmingham",
+            "D.)": "Liverpool"
+        },
+        "answer": "A.)"
+    },
+    13: {
+        "question": "What is the capital of the United States? 🇺🇸",
+        "options": {
+            "A.)": "Washington, D.C.",
+            "B.)": "New York",
+            "C.)": "Los Angeles",
+            "D.)": "Chicago"
+        },
+        "answer": "A.)"
+    },
+    14: {
+        "question": "What is the capital of South Korea? 🇰🇷",
+        "options": {
+            "A.)": "Seoul",
+            "B.)": "Busan",
+            "C.)": "Incheon",
+            "D.)": "Daegu"
+        },
+        "answer": "A.)"
+    },
+    15: {
+        "question": "What is the capital of North Korea? 🇰🇵",
+        "options": {
+            "A.)": "Pyongyang",
+            "B.)": "Kaesong",
+            "C.)": "Wonsan",
+            "D.)": "Nampo"
+        },
+        "answer": "A.)"
+    },
+    16: {
+        "question": "What is the capital of South Africa? 🇿🇦",
+        "options": {
+            "A.)": "Pretoria",
+            "B.)": "Johannesburg",
+            "C.)": "Cape Town",
+            "D.)": "Durban"
+        },
+        "answer": "A.)"
+    },
+    17: {
+        "question": "What is the capital of Egypt? 🇪🇬",
+        "options": {
+            "A.)": "Cairo",
+            "B.)": "Alexandria",
+            "C.)": "Giza",
+            "D.)": "Luxor"
+        },
+        "answer": "A.)"
+    },
+    18: {
+        "question": "What is the capital of Argentina? 🇦🇷",
+        "options": {
+            "A.)": "Buenos Aires",
+            "B.)": "Córdoba",
+            "C.)": "Rosario",
+            "D.)": "Mendoza"
+        },
+        "answer": "A.)"
+    },
+    19: {
+        "question": "What is the capital of Mexico? 🇲🇽",
+        "options": {
+            "A.)": "Mexico City",
+            "B.)": "Guadalajara",
+            "C.)": "Monterrey",
+            "D.)": "Tijuana"
+        },
+        "answer": "A.)"
+    },
+    20: {
+        "question": "What is the capital of Chile? 🇨🇱",
+        "options": {
+            "A.)": "Santiago",
+            "B.)": "Valparaíso",
+            "C.)": "Concepción",
+            "D.)": "La Serena"
+        },
+        "answer": "A.)"
+    },
+    21: {
+        "question": "What is the capital of Colombia? 🇨🇴",
+        "options": {
+            "A.)": "Bogotá",
+            "B.)": "Medellín",
+            "C.)": "Cali",
+            "D.)": "Cartagena"
+        },
+        "answer": "A.)"
+    },
+    22: {
+        "question": "What is the capital of Peru? 🇵🇪",
+        "options": {
+            "A.)": "Lima",
+            "B.)": "Cusco",
+            "C.)": "Arequipa",
+            "D.)": "Trujillo"
+        },
+        "answer": "A.)"
+    },
+    23: {
+        "question": "What is the capital of Venezuela? 🇻🇪",
+        "options": {
+            "A.)": "Caracas",
+            "B.)": "Maracaibo",
+            "C.)": "Valencia",
+            "D.)": "Barquisimeto"
+        },
+        "answer": "A.)"
+    },
+    24: {
+        "question": "What is the capital of Cuba? 🇨🇺",
+        "options": {
+            "A.)": "Havana",
+            "B.)": "Santiago de Cuba",
+            "C.)": "Camagüey",
+            "D.)": "Holguín"
+        },
+        "answer": "A.)"
+    },
+    25: {
+        "question": "What is the capital of Jamaica? 🇯🇲",
+        "options": {
+            "A.)": "Kingston",
+            "B.)": "Montego Bay",
+            "C.)": "Spanish Town",
+            "D.)": "Portmore"
+        },
+        "answer": "A.)"
+    },
+    26: {
+        "question": "What is the capital of Haiti? 🇭🇹",
+        "options": {
+            "A.)": "Port-au-Prince",
+            "B.)": "Cap-Haïtien",
+            "C.)": "Les Cayes",
+            "D.)": "Gonaïves"
+        },
+        "answer": "A.)"
+    },
+    27: {
+        "question": "What is the capital of the Dominican Republic? 🇩🇴",
+        "options": {
+            "A.)": "Santo Domingo",
+            "B.)": "Santiago de los Caballeros",
+            "C.)": "La Romana",
+            "D.)": "Puerto Plata"
+        },
+        "answer": "A.)"
+    },
+    28: {
+        "question": "What is the capital of Costa Rica? 🇨🇷",
+        "options": {
+            "A.)": "San José",
+            "B.)": "Alajuela",
+            "C.)": "Cartago",
+            "D.)": "Heredia"
+        },
+        "answer": "A.)"
+    },
+    29: {
+        "question": "What is the capital of Panama? 🇵🇦",
+        "options": {
+            "A.)": "Panama City",
+            "B.)": "Colón",
+            "C.)": "David",
+            "D.)": "La Chorrera"
+        },
+        "answer": "A.)"
+    },
+    30: {
+        "question": "What is the capital of Ecuador? 🇪🇨",
+        "options": {
+            "A.)": "Quito",
+            "B.)": "Guayaquil",
+            "C.)": "Cuenca",
+            "D.)": "Santo Domingo"
+        },
+        "answer": "A.)"
+    },
+    31: {
+        "question": "What is the capital of Bolivia? 🇧🇴",
+        "options": {
+            "A.)": "Sucre",
+            "B.)": "La Paz",
+            "C.)": "Cochabamba",
+            "D.)": "Santa Cruz"
+        },
+        "answer": "A.)"
+    },
+    32: {
+        "question": "What is the capital of Paraguay? 🇵🇾",
+        "options": {
+            "A.)": "Asunción",
+            "B.)": "Ciudad del Este",
+            "C.)": "Encarnación",
+            "D.)": "San Lorenzo"
+        },
+        "answer": "A.)"
+    },
+    33: {
+        "question": "What is the capital of Uruguay? 🇺🇾",
+        "options": {
+            "A.)": "Montevideo",
+            "B.)": "Salto",
+            "C.)": "Paysandú",
+            "D.)": "Las Piedras"
+        },
+        "answer": "A.)"
+    },
+    34: {
+        "question": "What is the capital of Iceland? 🇮🇸",
+        "options": {
+            "A.)": "Reykjavik",
+            "B.)": "Akureyri",
+            "C.)": "Keflavik",
+            "D.)": "Hafnarfjörður"
+        },
+        "answer": "A.)"
+    },
+    35: {
+        "question": "What is the capital of Norway? 🇳🇴",
         "options": {
             "A.)": "Oslo",
             "B.)": "Bergen",
-            "C.)": "Stavanger",
-            "D.)": "Trondheim"
+            "C.)": "Trondheim",
+            "D.)": "Stavanger"
         },
         "answer": "A.)"
     },
-    "What is the capital of Sweden?": {
+    36: {
+        "question": "What is the capital of Sweden? 🇸🇪",
         "options": {
             "A.)": "Stockholm",
             "B.)": "Gothenburg",
@@ -297,42 +441,445 @@ geographyquestions = {
         },
         "answer": "A.)"
     },
-    "What is the capital of Denmark?": {
-        "options": {
-            "A.)": "Aarhus",
-            "B.)": "Copenhagen",
-            "C.)": "Odense",
-            "D.)": "Aalborg"
-        },
-        "answer": "B.)"
-    },
-    "What is the capital of Finland?": {
+    37: {
+        "question": "What is the capital of Finland? 🇫🇮",
         "options": {
             "A.)": "Helsinki",
-            "B.)": "Espoo",
-            "C.)": "Tampere",
-            "D.)": "Turku"
+            "B.)": "Tampere",
+            "C.)": "Turku",
+            "D.)": "Oulu"
         },
         "answer": "A.)"
     },
-    "What is the capital of Saudi Arabia?": {
+    38: {
+        "question": "What is the capital of Denmark? 🇩🇰",
         "options": {
-            "A.)": "Jeddah",
-            "B.)": "Riyadh",
+            "A.)": "Copenhagen",
+            "B.)": "Aarhus",
+            "C.)": "Odense",
+            "D.)": "Aalborg"
+        },
+        "answer": "A.)"
+    },
+    39: {
+        "question": "What is the capital of Ireland? 🇮🇪",
+        "options": {
+            "A.)": "Dublin",
+            "B.)": "Cork",
+            "C.)": "Galway",
+            "D.)": "Limerick"
+        },
+        "answer": "A.)"
+    },
+    40: {
+        "question": "What is the capital of Portugal? 🇵🇹",
+        "options": {
+            "A.)": "Lisbon",
+            "B.)": "Porto",
+            "C.)": "Braga",
+            "D.)": "Coimbra"
+        },
+        "answer": "A.)"
+    },
+    41: {
+        "question": "What is the capital of Greece? 🇬🇷",
+        "options": {
+            "A.)": "Athens",
+            "B.)": "Thessaloniki",
+            "C.)": "Patras",
+            "D.)": "Heraklion"
+        },
+        "answer": "A.)"
+    },
+    42: {
+        "question": "What is the capital of Turkey? 🇹🇷",
+        "options": {
+            "A.)": "Ankara",
+            "B.)": "Istanbul",
+            "C.)": "Izmir",
+            "D.)": "Bursa"
+        },
+        "answer": "A.)"
+    },
+    43: {
+        "question": "What is the capital of Saudi Arabia? 🇸🇦",
+        "options": {
+            "A.)": "Riyadh",
+            "B.)": "Jeddah",
             "C.)": "Mecca",
             "D.)": "Medina"
         },
-        "answer": "B.)"
+        "answer": "A.)"
     },
-    "What is the capital of the United States?": {
+    44: {
+        "question": "What is the capital of the United Arab Emirates? 🇦🇪",
         "options": {
-            "A.)": "New York",
-            "B.)": "Washington, D.C.",
-            "C.)": "Los Angeles",
-            "D.)": "Chicago"
+            "A.)": "Abu Dhabi",
+            "B.)": "Dubai",
+            "C.)": "Sharjah",
+            "D.)": "Al Ain"
         },
-        "answer": "B.)"
+        "answer": "A.)"
+    },
+    45: {
+        "question": "What is the capital of Qatar? 🇶🇦",
+        "options": {
+            "A.)": "Doha",
+            "B.)": "Al Rayyan",
+            "C.)": "Al Wakrah",
+            "D.)": "Al Khor"
+        },
+        "answer": "A.)"
+    },
+    46: {
+        "question": "What is the capital of Kuwait? 🇰🇼",
+        "options": {
+            "A.)": "Kuwait City",
+            "B.)": "Al Ahmadi",
+            "C.)": "Hawalli",
+            "D.)": "Salmiya"
+        },
+        "answer": "A.)"
+    },
+    47: {
+        "question": "What is the capital of Bahrain? 🇧🇭",
+        "options": {
+            "A.)": "Manama",
+            "B.)": "Muharraq",
+            "C.)": "Riffa",
+            "D.)": "Isa Town"
+        },
+        "answer": "A.)"
+    },
+    48: {
+        "question": "What is the capital of Oman? 🇴🇲",
+        "options": {
+            "A.)": "Muscat",
+            "B.)": "Salalah",
+            "C.)": "Sohar",
+            "D.)": "Nizwa"
+        },
+        "answer": "A.)"
+    },
+    49: {
+        "question": "What is the capital of Jordan? 🇯🇴",
+        "options": {
+            "A.)": "Amman",
+            "B.)": "Aqaba",
+            "C.)": "Zarqa",
+            "D.)": "Irbid"
+        },
+        "answer": "A.)"
+    },
+    50: {
+        "question": "What is the capital of Lebanon? 🇱🇧",
+        "options": {
+            "A.)": "Beirut",
+            "B.)": "Tripoli",
+            "C.)": "Sidon",
+            "D.)": "Byblos"
+        },
+        "answer": "A.)"
+    },
+    51: {
+        "question": "What is the capital of Syria? 🇸🇾",
+        "options": {
+            "A.)": "Damascus",
+            "B.)": "Aleppo",
+            "C.)": "Homs",
+            "D.)": "Latakia"
+        },
+        "answer": "A.)"
+    },
+    52: {
+        "question": "What is the capital of Iraq? 🇮🇶",
+        "options": {
+            "A.)": "Baghdad",
+            "B.)": "Basra",
+            "C.)": "Mosul",
+            "D.)": "Erbil"
+        },
+        "answer": "A.)"
+    },
+    53: {
+        "question": "What is the capital of Iran? 🇮🇷",
+        "options": {
+            "A.)": "Tehran",
+            "B.)": "Isfahan",
+            "C.)": "Mashhad",
+            "D.)": "Shiraz"
+        },
+        "answer": "A.)"
+    },
+    54: {
+        "question": "What is the capital of Afghanistan? 🇦🇫",
+        "options": {
+            "A.)": "Kabul",
+            "B.)": "Kandahar",
+            "C.)": "Herat",
+            "D.)": "Mazar-i-Sharif"
+        },
+        "answer": "A.)"
+    },
+    55: {
+        "question": "What is the capital of Pakistan? 🇵🇰",
+        "options": {
+            "A.)": "Islamabad",
+            "B.)": "Karachi",
+            "C.)": "Lahore",
+            "D.)": "Peshawar"
+        },
+        "answer": "A.)"
+    },
+    56: {
+        "question": "What is the capital of Bangladesh? 🇧🇩",
+        "options": {
+            "A.)": "Dhaka",
+            "B.)": "Chittagong",
+            "C.)": "Khulna",
+            "D.)": "Sylhet"
+        },
+        "answer": "A.)"
+    },
+    57: {
+        "question": "What is the capital of Sri Lanka? 🇱🇰",
+        "options": {
+            "A.)": "Colombo",
+            "B.)": "Kandy",
+            "C.)": "Galle",
+            "D.)": "Jaffna"
+        },
+        "answer": "A.)"
+    },
+    58: {
+        "question": "What is the capital of Nepal? 🇳🇵",
+        "options": {
+            "A.)": "Kathmandu",
+            "B.)": "Pokhara",
+            "C.)": "Lalitpur",
+            "D.)": "Biratnagar"
+        },
+        "answer": "A.)"
+    },
+    59: {
+        "question": "What is the capital of Bhutan? 🇧🇹",
+        "options": {
+            "A.)": "Thimphu",
+            "B.)": "Paro",
+            "C.)": "Punakha",
+            "D.)": "Jakar"
+        },
+        "answer": "A.)"
+    },
+    60: {
+        "question": "What is the capital of the Maldives? 🇲🇻",
+        "options": {
+            "A.)": "Malé",
+            "B.)": "Addu City",
+            "C.)": "Fuvahmulah",
+            "D.)": "Kulhudhuffushi"
+        },
+        "answer": "A.)"
+    },
+    61: {
+        "question": "What is the capital of India? 🇮🇳",
+        "options": {
+            "A.)": "New Delhi",
+            "B.)": "Mumbai",
+            "C.)": "Bangalore",
+            "D.)": "Kolkata"
+        },
+        "answer": "A.)"
+    },
+    62: {
+        "question": "What is the capital of China? 🇨🇳",
+        "options": {
+            "A.)": "Beijing",
+            "B.)": "Shanghai",
+            "C.)": "Guangzhou",
+            "D.)": "Shenzhen"
+        },
+        "answer": "A.)"
+    },
+    63: {
+        "question": "What is the capital of Japan? 🇯🇵",
+        "options": {
+            "A.)": "Tokyo",
+            "B.)": "Osaka",
+            "C.)": "Kyoto",
+            "D.)": "Nagoya"
+        },
+        "answer": "A.)"
+    },
+    64: {
+        "question": "What is the capital of South Korea? 🇰🇷",
+        "options": {
+            "A.)": "Seoul",
+            "B.)": "Busan",
+            "C.)": "Incheon",
+            "D.)": "Daegu"
+        },
+        "answer": "A.)"
+    },
+    65: {
+        "question": "What is the capital of North Korea? 🇰🇵",
+        "options": {
+            "A.)": "Pyongyang",
+            "B.)": "Kaesong",
+            "C.)": "Sinuiju",
+            "D.)": "Wonsan"
+        },
+        "answer": "A.)"
+    },
+    66: {
+        "question": "What is the capital of Mongolia? 🇲🇳",
+        "options": {
+            "A.)": "Ulaanbaatar",
+            "B.)": "Erdenet",
+            "C.)": "Darkhan",
+            "D.)": "Choibalsan"
+        },
+        "answer": "A.)"
+    },
+    67: {
+        "question": "What is the capital of Vietnam? 🇻🇳",
+        "options": {
+            "A.)": "Hanoi",
+            "B.)": "Ho Chi Minh City",
+            "C.)": "Da Nang",
+            "D.)": "Haiphong"
+        },
+        "answer": "A.)"
+    },
+    68: {
+        "question": "What is the capital of Thailand? 🇹🇭",
+        "options": {
+            "A.)": "Bangkok",
+            "B.)": "Chiang Mai",
+            "C.)": "Pattaya",
+            "D.)": "Phuket"
+        },
+        "answer": "A.)"
+    },
+    69: {
+        "question": "What is the capital of Cambodia? 🇰🇭",
+        "options": {
+            "A.)": "Phnom Penh",
+            "B.)": "Siem Reap",
+            "C.)": "Battambang",
+            "D.)": "Sihanoukville"
+        },
+        "answer": "A.)"
+    },
+    70: {
+        "question": "What is the capital of Laos? 🇱🇦",
+        "options": {
+            "A.)": "Vientiane",
+            "B.)": "Luang Prabang",
+            "C.)": "Pakse",
+            "D.)": "Savannakhet"
+        },
+        "answer": "A.)"
+    },
+    71: {
+        "question": "What is the capital of Myanmar? 🇲🇲",
+        "options": {
+            "A.)": "Naypyidaw",
+            "B.)": "Yangon",
+            "C.)": "Mandalay",
+            "D.)": "Bago"
+        },
+        "answer": "A.)"
+    },
+    72: {
+        "question": "What is the capital of Malaysia? 🇲🇾",
+        "options": {
+            "A.)": "Kuala Lumpur",
+            "B.)": "George Town",
+            "C.)": "Johor Bahru",
+            "D.)": "Ipoh"
+        },
+        "answer": "A.)"
+    },
+    73: {
+        "question": "What is the capital of Singapore? 🇸🇬",
+        "options": {
+            "A.)": "Singapore",
+            "B.)": "Sentosa",
+            "C.)": "Pulau Ujong",
+            "D.)": "Kampong Glam"
+        },
+        "answer": "A.)"
+    },
+    74: {
+        "question": "What is the capital of Indonesia? 🇮🇩",
+        "options": {
+            "A.)": "Jakarta",
+            "B.)": "Surabaya",
+            "C.)": "Bandung",
+            "D.)": "Denpasar"
+        },
+        "answer": "A.)"
+    },
+    75: {
+        "question": "What is the capital of the Philippines? 🇵🇭",
+        "options": {
+            "A.)": "Manila",
+            "B.)": "Quezon City",
+            "C.)": "Davao",
+            "D.)": "Cebu"
+        },
+        "answer": "A.)"
+    },
+    76: {
+        "question": "What is the capital of Australia? 🇦🇺",
+        "options": {
+            "A.)": "Canberra",
+            "B.)": "Sydney",
+            "C.)": "Melbourne",
+            "D.)": "Brisbane"
+        },
+        "answer": "A.)"
+    },
+    77: {
+        "question": "What is the capital of New Zealand? 🇳🇿",
+        "options": {
+            "A.)": "Wellington",
+            "B.)": "Auckland",
+            "C.)": "Christchurch",
+            "D.)": "Dunedin"
+        },
+        "answer": "A.)"
+    },
+    78: {
+        "question": "What is the capital of Fiji? 🇫🇯",
+        "options": {
+            "A.)": "Suva",
+            "B.)": "Nadi",
+            "C.)": "Lautoka",
+            "D.)": "Labasa"
+        },
+        "answer": "A.)"
+    },
+    79: {
+        "question": "What is the capital of Papua New Guinea? 🇵🇬",
+        "options": {
+            "A.)": "Port Moresby",
+            "B.)": "Lae",
+            "C.)": "Madang",
+            "D.)": "Goroka"
+        },
+        "answer": "A.)"
+    },
+    80: {
+        "question": "What is the capital of the Solomon Islands? 🇸🇧",
+        "options": {
+            "A.)": "Honiara",
+            "B.)": "Gizo",
+            "C.)": "Auki",
+            "D.)": "Munda"
+        },
+        "answer": "A.)"
     }
 }
 
-   
