@@ -75,11 +75,11 @@ def menu():
     Rules, play, exit
     """
     while True:
-        main_menu = int(input(f"{Fore.GREEN}{Style.BRIGHT}""[1] Rules \n[2] Play\n [3] Exit\n"))
+        main_menu = int(input(f"{Fore.YELLOW}{Style.BRIGHT}""[1] Rules \n[2] Play\n [3] Exit\n"))
         clean()
         if main_menu == 1:
                 # Display Rules
-                print(f"{Fore.GREEN}{Style.BRIGHT}""Quizmaster - Battle of brains is a quizgame. You can choose between maths and geography related questions. For each question 4 multiplychoice answers getting displayed. There is only one correct answer. Each correct answer brings you 10 points. Are you ready to go for the high-score? So choose your favorite quiz and lets go!")
+                print(f"{Fore.CYAN}{Style.BRIGHT}""Quizmaster - Battle of brains is a quizgame. You can choose between maths and geography related questions. For each question, 4 multiplychoice answers are getting displayed. There is only one correct answer for each question. Each correct answer brings you 10 points. Are you ready to go for the high-score? So choose your favorite quiz and lets go!")
                 game_menu()
                 break
         elif main_menu == 2:
@@ -144,10 +144,11 @@ def main_math():
         if user_answer == correct_answer:
             print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
             print(f"{Fore.GREEN}Your score = {SCORE+10}")
+
         else:
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
             print(f"{Fore.RED}Your score = {SCORE}")
-        
+
 
 # Looping through the geographyquestions
 def main_geography():
@@ -174,8 +175,6 @@ def main_geography():
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
             print(f"{Fore.RED}Your score = {SCORE}")
         
-        clean()
-
 # Calling functions
 clean()
 welcome()
