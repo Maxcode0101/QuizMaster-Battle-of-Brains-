@@ -72,6 +72,33 @@ def validate_player():
 
 def menu():
     """
+    Rules, play, exit
+    """
+    while True:
+        main_menu = int(input(f"{Fore.GREEN}{Style.BRIGHT}""[1] Rules \n[2] Play\n [3] Exit\n"))
+        clean()
+        if main_menu == 1:
+                # Display Rules
+                print(f"{Fore.GREEN}{Style.BRIGHT}""Quizmaster - Battle of brains is a quizgame. You can choose between maths and geography related questions. For each question 4 multiplychoice answers getting displayed. There is only one correct answer. Each correct answer brings you 10 points. Are you ready to go for the high-score? So choose your favorite quiz and lets go!")
+                game_menu()
+                break
+        elif main_menu == 2:
+                # Select quiz
+                game_menu()
+                break
+        elif main_menu ==3:
+                # Exit
+                print(f"{Fore.GREEN}{Style.BRIGHT}""Goodbye")
+                break
+        else:
+                print(
+                    f"{Fore.RED}{Style.BRIGHT}{game!r} "
+                    "Invalid enter! Please select 1, 2 or 3.")
+
+
+
+def game_menu():
+    """
     Choosing Game-type.
     """
     global GAME
@@ -102,7 +129,7 @@ def main_math():
     Main function, loops through quiz-questions.
     """
     global SCORE
-    # Looping through the mathquestions
+    # Loop
     for question in mathquestions:
         question_text = question.get("question")
         print(question_text)
@@ -122,13 +149,13 @@ def main_math():
             print(f"{Fore.RED}Your score = {SCORE}")
         
 
-# Looping through the mathquestions
+# Looping through the geographyquestions
 def main_geography():
     """
-    Main function, loops through quiz-questions.
+    Main function, loops through questions.
     """
     global SCORE
-    # Looping through the mathquestions
+    # Loop
     for question in geographyquestions:
         question_text = question.get("question")
         print(question_text)
@@ -147,7 +174,7 @@ def main_geography():
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
             print(f"{Fore.RED}Your score = {SCORE}")
         
-
+        clean()
 
 # Calling functions
 clean()
