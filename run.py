@@ -29,12 +29,14 @@ score = 0
 player = ""
 game = None
 
+# Clearing the terminal
 def clean():
     """
     Cleans the terminal.
     """
     os.system("cls" if os.name == "nt" else "clear")
 
+# Displaying a welcome message
 def welcome():
     """
     Welcome message, requesting player name.
@@ -52,7 +54,7 @@ def welcome():
     # open the main menu
     menu()
 
-
+# Validation if user enters a correct name
 def validate_player():
     """
     Checking that player enters a valid name.
@@ -70,12 +72,13 @@ def validate_player():
         else:
             break
 
+# Main menu Rules & Play & Exit
 def menu():
     """
     Rules, play, exit
     """
     while True:
-        main_menu = int(input(f"{Fore.YELLOW}{Style.BRIGHT}""[1] Rules \n[2] Play\n [3] Exit\n"))
+        main_menu = int(input(f"{Fore.YELLOW}{Style.BRIGHT}""[1] Rules \n[2] Play\n[3] Exit\n"))
         clean()
         if main_menu == 1:
                 # Display Rules
@@ -96,7 +99,7 @@ def menu():
                     "Invalid enter! Please select 1, 2 or 3.")
 
 
-
+# User selects math or geography quiz
 def game_menu():
     """
     Choosing Game-type.
@@ -123,7 +126,7 @@ def game_menu():
                     "Invalid enter! Please select 1 or 2.")
 
 
-# Looping through the mathquestions
+# Main function / Looping through the mathquestions
 def main_math():
     """
     Main function, loops through quiz-questions.
@@ -138,20 +141,24 @@ def main_math():
         print(question.get("options"))
         print("--------------")
     
-        user_answer = int(input("Enter answer: ")) 
-        correct_answer = int(question.get("answer"))
+        while True:
+            user_answer = int(input("Enter answer: ")) 
+            correct_answer = int(question.get("answer"))
 
-        if user_answer == correct_answer:
-            print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
-            score += 10
-            print(f"{Fore.GREEN}Your score = {score}")
+            if not isinstance(user_answer, int) or user_answer not in question.get("options"):  # noqa
+                print(f"{Fore.RED}{user_answer} is invalid, please select one of the four multiplychoice options.")  # noqa
+            else:
+                if user_answer == correct_answer:
+                    print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
+                    score += 10
+                    print(f"{Fore.GREEN}Your score = {score}")
+                    break
+                else:
+                    print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
+                    print(f"{Fore.RED}Your score = {score}")
+                    break
 
-        else:
-            print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
-            print(f"{Fore.RED}Your score = {score}")
-
-
-# Looping through the geographyquestions
+# Main function / Looping through the geographyquestions
 def main_geography():
     """
     Main function, loops through questions.
@@ -169,10 +176,12 @@ def main_geography():
         user_answer = int(input("Enter answer: "))
         correct_answer = int(question.get("answer"))
 
+        if not isinstance(user_answer, int) or user_answer not in question.get("options"):  # noqa
+                print(f"{Fore.RED}{user_answer} is invalid, please select one of the four multiplychoice options.")  # noqa
         if user_answer == correct_answer:
-            print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
-            print(f"{Fore.GREEN}Your score = {score}")
-            score += 10
+                print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
+                score += 10
+                print(f"{Fore.GREEN}Your score = {score}")
 
         #elif user_answer is not correct_answer or question.get("options"):
             #print("INVALID")
