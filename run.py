@@ -24,10 +24,10 @@ from questionlist import geographyquestions
 # Global Variables
 
 # Userscore in the beginning
-SCORE = 0
+score = 0
 
-PLAYER = ""
-GAME = None
+player = ""
+game = None
 
 def clean():
     """
@@ -39,7 +39,7 @@ def welcome():
     """
     Welcome message, requesting player name.
     """
-    global PLAYER
+    global player
 
     print(f"{Fore.GREEN}{Style.BRIGHT} \nWelcome to Quiz Master - Battle of brains!\n")
     time.sleep(1.5)
@@ -47,7 +47,7 @@ def welcome():
     # requesting the players name
     validate_player()
     clean()
-    print(f"{Fore.CYAN}{Style.BRIGHT}Welcome {PLAYER}! Please select a quiz")
+    print(f"{Fore.CYAN}{Style.BRIGHT}Welcome {player}! Please select a quiz")
 
     # open the main menu
     menu()
@@ -57,15 +57,15 @@ def validate_player():
     """
     Checking that player enters a valid name.
     """
-    global PLAYER
+    global player
 
     while True:
-        PLAYER = input(f"{Fore.GREEN}Please enter your name: ")
+        player = input(f"{Fore.GREEN}Please enter your name: ")
 
-        if not PLAYER.isalpha() or len(PLAYER) < 2 or len(PLAYER) > 30:
+        if not player.isalpha() or len(player) < 2 or len(player) > 30:
             clean()
             print(
-                f"{Fore.RED}{Style.BRIGHT}{PLAYER!r} "
+                f"{Fore.RED}{Style.BRIGHT}{player!r} "
                 "is not a valid name. Please use only letters")
         else:
             break
@@ -101,7 +101,7 @@ def game_menu():
     """
     Choosing Game-type.
     """
-    global GAME
+    global game
 
 
     while True:
@@ -128,7 +128,7 @@ def main_math():
     """
     Main function, loops through quiz-questions.
     """
-    global SCORE
+    global score
     # Loop
     for question in mathquestions:
         question_text = question.get("question")
@@ -143,11 +143,12 @@ def main_math():
 
         if user_answer == correct_answer:
             print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
-            print(f"{Fore.GREEN}Your score = {SCORE+10}")
+            score += 10
+            print(f"{Fore.GREEN}Your score = {score}")
 
         else:
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
-            print(f"{Fore.RED}Your score = {SCORE}")
+            print(f"{Fore.RED}Your score = {score}")
 
 
 # Looping through the geographyquestions
@@ -155,26 +156,32 @@ def main_geography():
     """
     Main function, loops through questions.
     """
-    global SCORE
+    global score
     # Loop
     for question in geographyquestions:
         question_text = question.get("question")
         print(question_text)
-        print("--------------")
+        print("-----------------------------------------------------------------------")
         print("Choices: ")
         print(question.get("options"))
-        print("--------------")
+        print("-----------------------------------------------------------------------")
     
         user_answer = int(input("Enter answer: "))
         correct_answer = int(question.get("answer"))
 
         if user_answer == correct_answer:
             print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
-            print(f"{Fore.GREEN}Your score = {SCORE+10}")
+            print(f"{Fore.GREEN}Your score = {score}")
+            score += 10
+
+        #elif user_answer is not correct_answer or question.get("options"):
+            #print("INVALID")
         else:
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
-            print(f"{Fore.RED}Your score = {SCORE}")
+            print(f"{Fore.RED}Your score = {score}")
+
         
 # Calling functions
 clean()
 welcome()
+
