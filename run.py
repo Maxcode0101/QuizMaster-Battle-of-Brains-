@@ -80,7 +80,13 @@ def menu():
         clean()
         if main_menu == 1:
                 # Display Rules
-                print(f"{Fore.CYAN}{Style.BRIGHT}""Quizmaster - Battle of brains is a quizgame. You can choose between maths and geography related questions. For each question, 4 multiplychoice answers are getting displayed. There is only one correct answer for each question. Each correct answer brings you 10 points. Are you ready to go for the high-score? So choose your favorite quiz and lets go!")
+                print(f"{Fore.CYAN}{Style.BRIGHT}Quizmaster - Battle of brains is a quizgame.\n"
+                        "You can choose between maths and geography related questions.\n"
+                        "For each question, 4 multiple-choice answers are displayed.\n"
+                        "There is only one correct answer for each question.\n"
+                        "Each correct answer brings you 10 points.\n"
+                        "Are you ready to go for the high-score?\n"
+                        "So choose your favorite quiz and lets go!")
                 game_menu()
                 break
         elif main_menu == 2:
