@@ -17,9 +17,7 @@ import time
 import sys, os
 
 # Imports list with questions from questionlist.py file
-from questionlist import mathquestions
-from questionlist import geographyquestions
-
+from questionlist import mathquestions, geographyquestions
 
 # Global Variables
 
@@ -176,8 +174,6 @@ def main_geography():
         user_answer = int(input("Enter answer: "))
         correct_answer = int(question.get("answer"))
 
-        if not isinstance(user_answer, int) or user_answer not in question.get("options"):  # noqa
-                print(f"{Fore.RED}{user_answer} is invalid, please select one of the four multiplychoice options.")  # noqa
         if user_answer == correct_answer:
                 print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
                 score += 10
