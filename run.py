@@ -116,12 +116,12 @@ def game_menu():
         clean()
         if game_type == 1:
                 # Math Quiz
-                GAME = mathquestions
+                game = mathquestions
                 main_math()
                 break
         elif game_type == 2:
                 # Geography Quiz
-                GAME = geographyquestions
+                game = geographyquestions
                 main_geography()
                 break
         else:
