@@ -1,30 +1,16 @@
-# Quizmaster : Battle of brains
-
-# Imports
-
-# Import colorama module
 import colorama
+import pyfiglet
+import random
+import time
+import sys
+import os
+from questionlist import mathquestions, geographyquestions
 from colorama import Fore, Back, Style
 
 colorama.init(autoreset=True)
 
-# Import pyfiglet module
-import pyfiglet
-
-# Import random to use random numbers for Quizmaster
-import random
-
-import time
-import sys, os
-
-# Imports list with questions from questionlist.py file
-from questionlist import mathquestions, geographyquestions
-
 # Global Variables
-
-# Userscore in the beginning
 score = 0
-
 player = ""
 game = None
 
@@ -44,7 +30,10 @@ def welcome():
     """
     global player
 
-    print(f"{Fore.GREEN}{Style.BRIGHT} \nWelcome to Quiz Master - Battle of brains!\n")
+    print(
+        f"{Fore.GREEN}{Style.BRIGHT}\
+            \nWelcome to Quiz Master - Battle of brains!\n"
+    )
     time.sleep(1.5)
 
     # requesting the players name
@@ -83,14 +72,17 @@ def menu():
     """
     while True:
         main_menu = int(
-            input(f"{Fore.YELLOW}{Style.BRIGHT}" "[1] Rules \n[2] Play\n[3] Exit\n")
+            input
+            (f"{Fore.YELLOW}{Style.BRIGHT}""[1] Rules \n[2] Play\n[3] Exit\n")
         )
         clean()
         if main_menu == 1:
             # Display Rules
             print(
-                f"{Fore.CYAN}{Style.BRIGHT}Quizmaster - Battle of brains is a quizgame.\n"
-                "You can choose between maths and geography related questions.\n"
+                f"{Fore.CYAN}{Style.BRIGHT}\
+Quizmaster - Battle of brains is a quizgame.\n"
+                "You can choose between maths,\n"
+                "and geography related questions.\n"
                 "For each question, 4 multiple-choice answers are displayed.\n"
                 "There is only one correct answer for each question.\n"
                 "Each correct answer brings you 10 points.\n"
@@ -162,12 +154,13 @@ def main_math():
             user_answer = int(input("Enter answer: "))
             correct_answer = int(question.get("answer"))
 
-            if not isinstance(user_answer, int) or user_answer not in question.get(
+            if not isinstance(user_answer, int)\
+                or user_answer not in question.get(
                 "options"
             ):  # noqa
-                print(
-                    f"{Fore.RED}{user_answer} is invalid, please select one of the four multiplychoice options."
-                )  # noqa
+                print(f"{Fore.RED}{user_answer}\
+ is invalid, please select one of the provided options."
+            )  # noqa
             else:
                 if user_answer == correct_answer:
                     clean()
@@ -177,7 +170,10 @@ def main_math():
                     break
                 else:
                     clean()
-                    print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
+                    print(
+                        f"{Fore.RED}\
+Wrong ❌, the correct answer is {correct_answer}"
+                    )
                     print(f"{Fore.RED}Your score = {score}")
                     break
 
@@ -192,10 +188,10 @@ def main_geography():
     for question in geographyquestions:
         question_text = question.get("question")
         print(question_text)
-        print("-----------------------------------------------------------------------")
+        print("--------------------------------------------------------------")
         print("Choices: ")
         print(question.get("options"))
-        print("-----------------------------------------------------------------------")
+        print("--------------------------------------------------------------")
 
         user_answer = int(input("Enter answer: "))
         correct_answer = int(question.get("answer"))
@@ -207,8 +203,6 @@ def main_geography():
             score += 10
             print(f"{Fore.GREEN}Your score = {score}")
 
-        # elif user_answer is not correct_answer or question.get("options"):
-        # print("INVALID")
         else:
             clean()
             print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")

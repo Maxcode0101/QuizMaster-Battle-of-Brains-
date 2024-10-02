@@ -76,7 +76,12 @@ mathquestions = [
 geographyquestions = [
     {
         "question": "What is the capital of Nepal? 🇳🇵",
-        "options": ["1: Kathmandu", "2: Pokhara", "3: Biratnagar", "4: Lalitpur"],
+        "options": [
+            "1: Kathmandu",
+            "2: Pokhara",
+            "3: Biratnagar",
+            "4: Lalitpur",
+        ],
         "answer": 1,
     },
     {
@@ -96,7 +101,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Brazil? 🇧🇷",
-        "options": ["1: Rio de Janeiro", "2: São Paulo", "3: Brasilia", "4: Salvador"],
+        "options": [
+            "1: Rio de Janeiro",
+            "2: São Paulo",
+            "3: Brasilia",
+            "4: Salvador",
+        ],
         "answer": 3,
     },
     {
@@ -116,7 +126,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Russia? 🇷🇺",
-        "options": ["1: Saint Petersburg", "2: Moscow", "3: Kazan", "4: Novosibirsk"],
+        "options": [
+            "1: Saint Petersburg",
+            "2: Moscow",
+            "3: Kazan",
+            "4: Novosibirsk",
+        ],
         "answer": 2,
     },
     {
@@ -136,7 +151,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Mexico? 🇲🇽",
-        "options": ["1: Guadalajara", "2: Tijuana", "3: Mexico City", "4: Monterrey"],
+        "options": [
+            "1: Guadalajara",
+            "2: Tijuana",
+            "3: Mexico City",
+            "4: Monterrey",
+        ],
         "answer": 3,
     },
     {
@@ -146,7 +166,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Argentina? 🇦🇷",
-        "options": ["1: Buenos Aires", "2: Córdoba", "3: Rosario", "4: Mendoza"],
+        "options": [
+            "1: Buenos Aires",
+            "2: Córdoba",
+            "3: Rosario",
+            "4: Mendoza",
+        ],
         "answer": 1,
     },
     {
@@ -156,12 +181,22 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of the United Kingdom? 🇬🇧",
-        "options": ["1: Manchester", "2: Birmingham", "3: Edinburgh", "4: London"],
+        "options": [
+            "1: Manchester",
+            "2: Birmingham",
+            "3: Edinburgh",
+            "4: London",
+        ],
         "answer": 4,
     },
     {
         "question": "What is the capital of Greece? 🇬🇷",
-        "options": ["1: Athens", "2: Thessaloniki", "3: Heraklion", "4: Patras"],
+        "options": [
+            "1: Athens",
+            "2: Thessaloniki",
+            "3: Heraklion",
+            "4: Patras",
+        ],
         "answer": 1,
     },
     {
@@ -176,7 +211,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of South Africa? 🇿🇦",
-        "options": ["1: Cape Town", "2: Johannesburg", "3: Pretoria", "4: Durban"],
+        "options": [
+            "1: Cape Town",
+            "2: Johannesburg",
+            "3: Pretoria",
+            "4: Durban",
+        ],
         "answer": 3,
     },
     {
@@ -211,17 +251,32 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Iceland? 🇮🇸",
-        "options": ["1: Reykjavik", "2: Akureyri", "3: Selfoss", "4: Keflavik"],
+        "options": [
+            "1: Reykjavik",
+            "2: Akureyri",
+            "3: Selfoss",
+            "4: Keflavik",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of New Zealand? 🇳🇿",
-        "options": ["1: Wellington", "2: Auckland", "3: Christchurch", "4: Dunedin"],
+        "options": [
+            "1: Wellington",
+            "2: Auckland",
+            "3: Christchurch",
+            "4: Dunedin",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of the Philippines? 🇵🇭",
-        "options": ["1: Manila", "2: Cebu City", "3: Davao City", "4: Quezon City"],
+        "options": [
+            "1: Manila",
+            "2: Cebu City",
+            "3: Davao City",
+            "4: Quezon City",
+        ],
         "answer": 1,
     },
     {
@@ -246,12 +301,22 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Vietnam? 🇻🇳",
-        "options": ["1: Hanoi", "2: Ho Chi Minh City", "3: Da Nang", "4: Hai Phong"],
+        "options": [
+            "1: Hanoi",
+            "2: Ho Chi Minh City",
+            "3: Da Nang",
+            "4: Hai Phong",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of the United Arab Emirates? 🇦🇪",
-        "options": ["1: Abu Dhabi", "2: Dubai", "3: Sharjah", "4: Ras Al Khaimah"],
+        "options": [
+            "1: Abu Dhabi",
+            "2: Dubai",
+            "3: Sharjah",
+            "4: Ras Al Khaimah",
+        ],
         "answer": 1,
     },
     {
@@ -266,7 +331,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Afghanistan? 🇦🇫",
-        "options": ["1: Kabul", "2: Kandahar", "3: Herat", "4: Mazar-i-Sharif"],
+        "options": [
+            "1: Kabul",
+            "2: Kandahar",
+            "3: Herat",
+            "4: Mazar-i-Sharif",
+        ],
         "answer": 1,
     },
     {
@@ -281,7 +351,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Chile? 🇨🇱",
-        "options": ["1: Santiago", "2: Valparaíso", "3: Concepción", "4: Antofagasta"],
+        "options": [
+            "1: Santiago",
+            "2: Valparaíso",
+            "3: Concepción",
+            "4: Antofagasta",
+        ],
         "answer": 1,
     },
     {
@@ -291,7 +366,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Venezuela? 🇻🇪",
-        "options": ["1: Caracas", "2: Maracaibo", "3: Valencia", "4: Barquisimeto"],
+        "options": [
+            "1: Caracas",
+            "2: Maracaibo",
+            "3: Valencia",
+            "4: Barquisimeto",
+        ],
         "answer": 1,
     },
     {
@@ -306,12 +386,22 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Paraguay? 🇵🇾",
-        "options": ["1: Asunción", "2: Ciudad del Este", "3: Encarnación", "4: Luque"],
+        "options": [
+            "1: Asunción",
+            "2: Ciudad del Este",
+            "3: Encarnación",
+            "4: Luque",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Uruguay? 🇺🇾",
-        "options": ["1: Montevideo", "2: Salto", "3: Punta del Este", "4: Colonia"],
+        "options": [
+            "1: Montevideo",
+            "2: Salto",
+            "3: Punta del Este",
+            "4: Colonia",
+        ],
         "answer": 1,
     },
     {
@@ -351,7 +441,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of El Salvador? 🇸🇻",
-        "options": ["1: San Salvador", "2: Santa Ana", "3: San Miguel", "4: Sonsonate"],
+        "options": [
+            "1: San Salvador",
+            "2: Santa Ana",
+            "3: San Miguel",
+            "4: Sonsonate",
+        ],
         "answer": 1,
     },
     {
@@ -371,12 +466,22 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Cuba? 🇨🇺",
-        "options": ["1: Havana", "2: Santiago de Cuba", "3: Camagüey", "4: Holguín"],
+        "options": [
+            "1: Havana",
+            "2: Santiago de Cuba",
+            "3: Camagüey",
+            "4: Holguín",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Haiti? 🇭🇹",
-        "options": ["1: Port-au-Prince", "2: Cap-Haïtien", "3: Jacmel", "4: Gonaïves"],
+        "options": [
+            "1: Port-au-Prince",
+            "2: Cap-Haïtien",
+            "3: Jacmel",
+            "4: Gonaïves",
+        ],
         "answer": 1,
     },
     {
@@ -391,17 +496,32 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Jamaica? 🇯🇲",
-        "options": ["1: Kingston", "2: Montego Bay", "3: Ocho Rios", "4: Portmore"],
+        "options": [
+            "1: Kingston",
+            "2: Montego Bay",
+            "3: Ocho Rios",
+            "4: Portmore",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Trinidad and Tobago? 🇹🇹",
-        "options": ["1: Port of Spain", "2: San Fernando", "3: Chaguanas", "4: Arima"],
+        "options": [
+            "1: Port of Spain",
+            "2: San Fernando",
+            "3: Chaguanas",
+            "4: Arima",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Barbados? 🇧🇧",
-        "options": ["1: Bridgetown", "2: Speightstown", "3: Oistins", "4: Holetown"],
+        "options": [
+            "1: Bridgetown",
+            "2: Speightstown",
+            "3: Oistins",
+            "4: Holetown",
+        ],
         "answer": 1,
     },
     {
@@ -411,16 +531,27 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Saint Lucia? 🇱🇨",
-        "options": ["1: Castries", "2: Soufrière", "3: Vieux Fort", "4: Gros Islet"],
+        "options": [
+            "1: Castries",
+            "2: Soufrière",
+            "3: Vieux Fort",
+            "4: Gros Islet",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Grenada? 🇬🇩",
-        "options": ["1: St. George's", "2: Gouyave", "3: Hillsborough", "4: Victoria"],
+        "options": [
+            "1: St. George's",
+            "2: Gouyave",
+            "3: Hillsborough",
+            "4: Victoria",
+        ],
         "answer": 1,
     },
     {
-        "question": "What is the capital of Saint Vincent and the Grenadines? 🇻🇨",
+        "question": "What is the capital of\
+             Saint Vincent and the Grenadines? 🇻🇨",
         "options": [
             "1: Kingstown",
             "2: Barrouallie",
@@ -451,17 +582,32 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Dominica? 🇩🇲",
-        "options": ["1: Roseau", "2: Portsmouth", "3: Marigot", "4: Castle Bruce"],
+        "options": [
+            "1: Roseau",
+            "2: Portsmouth",
+            "3: Marigot",
+            "4: Castle Bruce",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Suriname? 🇸🇷",
-        "options": ["1: Paramaribo", "2: Lelydorp", "3: Nieuw Nickerie", "4: Moengo"],
+        "options": [
+            "1: Paramaribo",
+            "2: Lelydorp",
+            "3: Nieuw Nickerie",
+            "4: Moengo",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Guyana? 🇬🇾",
-        "options": ["1: Georgetown", "2: Linden", "3: New Amsterdam", "4: Bartica"],
+        "options": [
+            "1: Georgetown",
+            "2: Linden",
+            "3: New Amsterdam",
+            "4: Bartica",
+        ],
         "answer": 1,
     },
     {
@@ -471,12 +617,22 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Papua New Guinea? 🇵🇬",
-        "options": ["1: Port Moresby", "2: Lae", "3: Mount Hagen", "4: Madang"],
+        "options": [
+            "1: Port Moresby",
+            "2: Lae",
+            "3: Mount Hagen",
+            "4: Madang",
+        ],
         "answer": 1,
     },
     {
         "question": "What is the capital of Samoa? 🇼🇸",
-        "options": ["1: Apia", "2: Salelologa", "3: Safotulafai", "4: Mulifanua"],
+        "options": [
+            "1: Apia",
+            "2: Salelologa",
+            "3: Safotulafai",
+            "4: Mulifanua",
+        ],
         "answer": 1,
     },
     {
@@ -486,7 +642,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Vanuatu? 🇻🇺",
-        "options": ["1: Port Vila", "2: Luganville", "3: Isangel", "4: Lenakel"],
+        "options": [
+            "1: Port Vila",
+            "2: Luganville",
+            "3: Isangel",
+            "4: Lenakel",
+        ],
         "answer": 1,
     },
     {
@@ -506,7 +667,12 @@ geographyquestions = [
     },
     {
         "question": "What is the capital of Kiribati? 🇰🇮",
-        "options": ["1: Tarawa", "2: Kiritimati", "3: Bikenibeu", "4: Abaiang"],
+        "options": [
+            "1: Tarawa",
+            "2: Kiritimati",
+            "3: Bikenibeu",
+            "4: Abaiang",
+        ],
         "answer": 1,
     },
     {
