@@ -40,8 +40,11 @@ def welcome():
     # requesting the players name
     validate_player()
     clean()
-    print(f"{Fore.CYAN}{Style.BRIGHT}Welcome {player}! You're in the main menu,\n"
-    "please select 1,2 or 3!")
+    print(
+        f"{Fore.CYAN}{Style.BRIGHT}Welcome {player}!\n"
+        "You're in the main menu,\n"
+        "please select 1,2 or 3!"
+    )
 
     # open the main menu
     menu()
@@ -74,8 +77,10 @@ def menu():
     """
     while True:
         main_menu = int(
-            input
-            (f"{Fore.YELLOW}{Style.BRIGHT}""[1] Rules \n[2] Play\n[3] Exit\n")
+            input(
+                f"{Fore.YELLOW}{Style.BRIGHT}"
+                "[1] Rules \n[2] Play\n[3] Exit\n"
+            )
         )
         clean()
         if main_menu == 1:
@@ -99,8 +104,10 @@ Quizmaster - Battle of brains is a quizgame.\n"
             break
         elif main_menu == 3:
             # Exit
-            print(f"{Fore.YELLOW}{Style.BRIGHT}\
-Thanks for playing Quizmaster {player} - Goodbye!")
+            print(
+                f"{Fore.YELLOW}{Style.BRIGHT}\
+Thanks for playing Quizmaster {player} - Goodbye!"
+            )
             break
         else:
             print(
@@ -165,12 +172,18 @@ def main_math():
                     print(f"{Fore.GREEN}Your score = {score}")
                 else:
                     clean()
-                    print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
+                    print(
+                        f"{Fore.RED}Wrong ❌,\n"
+                        f"the correct answer is {correct_answer}"
+                    )
                     print(f"{Fore.RED}Your score = {score}")
                 break  # Exit loop if user provided a valid integer answer
             except ValueError:
                 # Handle case where the user input isn't a valid integer
-                print(f"{Fore.RED}Invalid input. Please enter a valid number for your answer.")
+                print(
+                    f"{Fore.RED}Invalid input.\n"
+                    "Please enter a valid number for your answer."
+                )
 
         keep_going()
 
@@ -201,14 +214,18 @@ def main_geography():
                     print(f"{Fore.GREEN}Your score = {score}")
                 else:
                     clean()
-                    print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
+                    print(f"{Fore.RED}Wrong ❌,\
+the correct answer is {correct_answer}")
                     print(f"{Fore.RED}Your score = {score}")
                 break  # Exit loop if user provided a valid integer answer
             except ValueError:
                 # Handle case where the user input isn't a valid integer
-                print(f"{Fore.RED}Invalid input. Please enter a valid number 1-4 for your answer.")
+                print(
+                    f"{Fore.RED}Invalid input.\n"
+                    "Please enter a valid number 1-4 for your answer.")
 
         keep_going()
+
 
 def keep_going():
 
@@ -216,17 +233,29 @@ def keep_going():
     clean()
 
     if answer == "y":
-        print(f"{Fore.YELLOW}{Style.BRIGHT}\
-...Loading next question...")
+        print(
+            f"{Fore.YELLOW}{Style.BRIGHT}\
+...Loading next question..."
+        )
         time.sleep(2)
         clean()
-    else:
-        print(f"{Fore.YELLOW}{Style.BRIGHT}\
-Thanks for playing Quizmaster {player}!")
+
+    elif answer == "n":
+        print(
+            f"{Fore.YELLOW}{Style.BRIGHT}\
+Thanks for playing Quizmaster {player}!"
+        )
 
         print(f"{Fore.GREEN}{Style.BRIGHT}Your score = {score}")
         print(f"{Fore.YELLOW}{Style.BRIGHT}Goodbye!")
         quit()
+
+    else:
+        print(f"{Fore.RED}Invalid input.\n"
+"Please type y for YES or n for NO."
+                )
+        keep_going()
+
 
 # Calling functions
 clean()
