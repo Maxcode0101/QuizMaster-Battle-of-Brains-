@@ -226,6 +226,8 @@ the correct answer is {correct_answer}")
 
         keep_going()
 
+# Ask user to play next round or exit
+
 
 def keep_going():
 
@@ -251,9 +253,8 @@ Thanks for playing Quizmaster {player}!"
         quit()
 
     else:
-        print(f"{Fore.RED}Invalid input.\n"
-"Please type y for YES or n for NO."
-                )
+        print(f"{Fore.RED}Invalid input. Please type y for YES or n for NO.")
+
         keep_going()
 
 

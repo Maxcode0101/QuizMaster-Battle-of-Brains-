@@ -17,33 +17,6 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 I've tested my deployed project on multiple browsers and devices to check for compatibility issues. There is some known issues I'm aware of. The keyboard is without function on mobile and on certain browsers (Safari)
 
-| Browser | Screenshot | Notes |
-| --- | --- | --- |
-| Chrome | ![screenshot](documentation/testing/chrome-testing.png) | Works as expected |
-| Firefox | ![screenshot](documentation/testing/firefox-testing.png) | Works as expected |
-| Edge | ![screenshot](documentation/testing/edge-testing.png) | Works as expected |
-| Safari | ![screenshot](documentation/testing/safari-testing.png) | Does not work on Safari |
-| Brave | ![screenshot](documentation/testing/brave-testing.png) | Works as expected |
-| Opera | ![screenshot](documentation/testing/opera-testing.png) | Works as expected |
-
-## Responsiveness
-
-I've tested my deployed project on multiple devices to check for responsiveness issues.
-
-| Device | Screenshot | Notes |
-| --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/testing/iphone-responsiveness.png) | Not responsive |
-| Tablet (DevTools) | ![screenshot](documentation/testing/ipad-responsiveness.png) | Not responsive |
-| Desktop | ![screenshot](documentation/testing/desktop-responsiveness.png) | Works as expected |
-
-## Lighthouse Audit
-
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
-
-| Page | Size | Screenshot | Notes |
-| --- | --- | --- | --- |
-| Home | Desktop | ![screenshot](documentation/testing/lighthouse-testing.png) | Few warnings |
-
 ## Defensive Programming
 
 Defensive programming was manually tested with the below user acceptance testing:
