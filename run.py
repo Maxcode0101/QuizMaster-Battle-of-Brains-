@@ -13,6 +13,7 @@ colorama.init(autoreset=True)
 score = 0
 player = ""
 game = None
+max_questions = 50
 
 
 # Clearing the terminal
@@ -97,7 +98,8 @@ Quizmaster - Battle of brains is a quizgame.\n"
             break
         elif main_menu == 3:
             # Exit
-            print(f"{Fore.GREEN}{Style.BRIGHT}" "Goodbye")
+            print(f"{Fore.YELLOW}{Style.BRIGHT}\
+Thanks for playing Quizmaster {player} - Goodbye!")
             break
         else:
             print(
@@ -169,6 +171,8 @@ def main_math():
                 # Handle case where the user input isn't a valid integer
                 print(f"{Fore.RED}Invalid input. Please enter a valid number for your answer.")
 
+        keep_going()
+
 
 # Main function / Looping through the geographyquestions
 def main_geography():
@@ -203,6 +207,25 @@ def main_geography():
                 # Handle case where the user input isn't a valid integer
                 print(f"{Fore.RED}Invalid input. Please enter a valid number 1-4 for your answer.")
 
+        keep_going()
+
+def keep_going():
+
+    answer = input("Do you wish to continue? (y/n)\n").lower()
+    clean()
+
+    if answer == "y":
+        print(f"{Fore.YELLOW}{Style.BRIGHT}\
+...Loading next question...")
+        time.sleep(2)
+        clean()
+    else:
+        print(f"{Fore.YELLOW}{Style.BRIGHT}\
+Thanks for playing Quizmaster {player}!")
+
+        print(f"{Fore.GREEN}{Style.BRIGHT}Your score = {score}")
+        print(f"{Fore.YELLOW}{Style.BRIGHT}Goodbye!")
+        quit()
 
 # Calling functions
 clean()
