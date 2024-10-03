@@ -40,7 +40,8 @@ def welcome():
     # requesting the players name
     validate_player()
     clean()
-    print(f"{Fore.CYAN}{Style.BRIGHT}Welcome {player}! Please select a quiz")
+    print(f"{Fore.CYAN}{Style.BRIGHT}Welcome {player}! You're in the main menu,\n"
+    "please select 1,2 or 3!")
 
     # open the main menu
     menu()
