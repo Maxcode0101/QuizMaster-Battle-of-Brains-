@@ -24,24 +24,31 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page | User Action | Expected Result | Pass/Fail | Screenshot |
 | --- | --- | --- | --- | --- |
 | Name Input | | | | |
-| | Enter a name | Field will only accept 2-15 letters | Pass | ![screenshot](documentation/testing/def-prog-min-letters.png) |
-| Category Selection | | | | |
-| | Enter 1 or 2 to choose a category | Field will only accept 1 or 2 | Pass | ![screenshot](documentation/testing/def-prog-numbers.png) |
+| | Enter a name | Field will only accept 2-30 letters | Pass | ![screenshot](documentation/testing/input_name.png) |
+| Main menu | | | | |
+| | Enter 1, 2 or 3 to choose between Rules, Play and Exit | Field will only accept 1, 2 or 3 | Pass | 
+![screenshot](documentation/testing/input_mmenu.png) |
+| Game Selection | | | | |
+| | Enter 1 or 2 to choose a Quiz Category 
+| Field will only accept 1 or 2 | Pass | 
+![screenshot](documentation/testing/input_gmenu.png) |
 | Answer Input | | | | |
-| | Enter a,b,c,d to select an answer | Field will only accept the letters a,b,c,d uppercase or lowercase | Pass | ![screenshot](documentation/testing/def-prog-abcd.png) |
+| | Enter 1,2,3,4 to select an answer | Field will only accept the numbers provided in the multiply choice options | Pass | 
+![screenshot](documentation/testing/input_answer.png) |
 | Play Again | | | | |
-| | Enter yes/no to play again | Field will accept any input that begin with y or n | Pass | ![screenshot](documentation/testing/def-prog-yn.png) |
+| | Enter yes/no to play again | Field will accept any input that begin with y or n | Pass | 
+![screenshot](documentation/testing/input_newgame.png) |
 
 
 ## Bugs
 
 - Unable to input text to the terminal on Safari desktop or mobile.
 
-    ![screenshot](documentation/testing/safari-testing.png)
+    ![screenshot](documentation/testing/safari_testing.png)
 
 - Flag emojis not displaying on all browsers tested
 
-    ![screenshot](documentation/testing/flags-bug.png)
+    ![screenshot](documentation/testing/flags_testing.png)
 
 
 There are no remaining bugs that I am aware of.
