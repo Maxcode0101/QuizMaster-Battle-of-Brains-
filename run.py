@@ -141,41 +141,33 @@ def main_math():
     Main function, loops through quiz-questions.
     """
     global score
-    # Loop
+    # Loop through each question in the list
     for question in mathquestions:
         question_text = question.get("question")
         print(question_text)
         print("--------------")
         print("Choices: ")
-        print(question.get("options"))
+        for option in question.get("options"):
+            print(option)
         print("--------------")
 
         while True:
-            user_answer = int(input("Enter answer: "))
-            correct_answer = int(question.get("answer"))
-
-            if not isinstance(user_answer, int)\
-                or user_answer not in question.get(
-                "options"
-            ):  # noqa
-                print(f"{Fore.RED}{user_answer}\
- is invalid, please select one of the provided options."
-            )  # noqa
-            else:
+            try:
+                user_answer = int(input("Enter answer (number): "))
+                correct_answer = int(question.get("answer"))
                 if user_answer == correct_answer:
                     clean()
                     print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
                     score += 10
                     print(f"{Fore.GREEN}Your score = {score}")
-                    break
                 else:
                     clean()
-                    print(
-                        f"{Fore.RED}\
-Wrong ❌, the correct answer is {correct_answer}"
-                    )
+                    print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
                     print(f"{Fore.RED}Your score = {score}")
-                    break
+                break  # Exit loop if user provided a valid integer answer
+            except ValueError:
+                # Handle case where the user input isn't a valid integer
+                print(f"{Fore.RED}Invalid input. Please enter a valid number for your answer.")
 
 
 # Main function / Looping through the geographyquestions
@@ -184,29 +176,32 @@ def main_geography():
     Main function, loops through questions.
     """
     global score
-    # Loop
+    # Loop through each question in the list
     for question in geographyquestions:
         question_text = question.get("question")
         print(question_text)
         print("--------------------------------------------------------------")
         print("Choices: ")
-        print(question.get("options"))
+        for option in question.get("options"):
+            print(option)
         print("--------------------------------------------------------------")
-
-        user_answer = int(input("Enter answer: "))
-        correct_answer = int(question.get("answer"))
-
-        if user_answer == correct_answer:
-            clean()
-
-            print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
-            score += 10
-            print(f"{Fore.GREEN}Your score = {score}")
-
-        else:
-            clean()
-            print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
-            print(f"{Fore.RED}Your score = {score}")
+        while True:
+            try:
+                user_answer = int(input("Enter answer (number): "))
+                correct_answer = int(question.get("answer"))
+                if user_answer == correct_answer:
+                    clean()
+                    print(f"{Fore.GREEN}{correct_answer} is correct! ✅")
+                    score += 10
+                    print(f"{Fore.GREEN}Your score = {score}")
+                else:
+                    clean()
+                    print(f"{Fore.RED}Wrong ❌, the correct answer is {correct_answer}")
+                    print(f"{Fore.RED}Your score = {score}")
+                break  # Exit loop if user provided a valid integer answer
+            except ValueError:
+                # Handle case where the user input isn't a valid integer
+                print(f"{Fore.RED}Invalid input. Please enter a valid number 1-4 for your answer.")
 
 
 # Calling functions
