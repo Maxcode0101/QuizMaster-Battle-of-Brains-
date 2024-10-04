@@ -7,7 +7,7 @@
 
 # Quizmaster - Battle of Brains
 
-Welcome to Quizmaster - Battle of Brains! Quizmaster is a Python terminal quiz game. The user can choose between a Maths-Quiz, and a Geography-Quiz yet, more quiz-options are about to come. Users will answer unlimited questions with mutliply choice answers. Only one answer ist correct. Each answer gives 10 points. Goal of the game is to get the highest possible score. Brainbox is aimed at people of all ages and may be useful to those hoping to improve their general knowledge. The site is very intuitive and easy to navigate.
+Welcome to Quizmaster - Battle of Brains! Quizmaster is a Python terminal quiz game. The user can choose between a Maths-Quiz, and a Geography-Quiz yet, more quiz-options are about to come. Users will answer unlimited questions with mutliply choice answers. Only one answer ist correct. Each answer gives 10 points. Goal of the game is to get the highest possible score. Quizmaster - Battle of Brains is aimed at people of all ages and may be useful to those hoping to improve their general knowledge. The site is very intuitive and easy to navigate.
 
 ![screenshot](documentation/mockup.png)
 
@@ -261,6 +261,7 @@ You can fork this repository by using the following steps:
 | --- | --- | --- | --- |
 | [Emojipedia](https://emojipedia.org/search/?q=flags) | questionlist.py | emojis | "Flags in questions and right and wrong emojis" |
 | [ChatGPT](https://chatgpt.com/) | questionlist.py | questions | "Generating Math & Geography questions" |
+| [Mermaid](https://mermaid.live/) | README.md | developing process | "Generating flowchart" |
 
 
 ### Acknowledgements

@@ -13,8 +13,6 @@ colorama.init(autoreset=True)
 score = 0
 player = ""
 game = None
-max_questions = 50
-
 
 # Clearing the terminal
 def clean():
